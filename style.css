@@ -16,47 +16,92 @@ body {
     color: #C9D1D9;
 
 }
-
+img {
+    width: 40px;
+    height: 40px;
+    margin:32px;
+}   
 h1 {
-    color: #C9D1D9;
+    margin-bottom: 20px;
+    font-size: 32px;
 }
-img{
-    width: 48px;
-    height: 48px;
-}
-.container{
+
+.container {
     width: 308px;
     height: 228px;
-    background-color: #161B22;
+    background-color:#30363D ;
+    border-radius: 8px;
+    
+}
+input{
+    all: unset;
+    background-color: #0D1117;
+    padding: 8px 5px;
     border-radius: 6px;
-    padding: 20px;
+    margin-top: 5px;
+    width: 240px;
 }
-.input-login{
-    all: unset;
-    display: flex;
-    flex-direction: column;
-}
-.input-senha {
-    all: unset;
-    display: flex;
-    flex-direction: column;
+input:focus {
+    box-shadow: 0px 4px 4px 0px     rgba(15, 100, 197, 0.486);
 }
 .input{
-    width: 266px;
-    height: 32px;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    padding: 5px 12px;
+    padding: 25px;
 }
-
-.emlinha{
+.input-login {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    
+}
+.input-senha {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 14px;
+}
+a {
+    color: #58A6FF;
+    font-size: 12px;
+}
+.emlinha {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     justify-content: space-between;
-}
-.esqueceu {
-    color:#58A6E1;
+    margin-bottom: 5px;
+    width: 240px;
 }
 button {
     all: unset;
+    margin-top: 20px;
+    background-color: #2ea44f;
+    color: #fff;
+    text-align: center;
+    width: 240px;
+    padding: 8px 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #37c45f;
+}
+.create {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    border:1px solid rgba(255, 255, 255, 0.781);
+    border-radius: 8px;
+    font-size: 14px;
+}
+footer{
+    margin-top: 150px;
+    align-items: flex-end;
+}
+footer a {
+    display: inline-block;
+    margin-right: 10px;
+}
+.contact{
+    color:#4a535e;
 }
